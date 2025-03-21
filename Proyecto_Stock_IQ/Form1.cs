@@ -64,6 +64,7 @@ namespace Proyecto_Stock_IQ
         {
 
             if (string.IsNullOrWhiteSpace(textBoxDocumento.Text)) {
+            // github test
                 guna2TextBox1.PlaceholderText = "Escribe aquí...";
                 guna2TextBox1.PlaceholderForeColor = Color.Gray;
             }
